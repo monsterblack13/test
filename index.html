@@ -13,7 +13,8 @@
     <!-- Custom styles for this template -->
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">   
-       <link rel="stylesheet" href="dist/aos.css" />
+    <link rel="stylesheet" href="dist/aos.css" />
+    <link href="css/lity.css" rel="stylesheet"/>
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -52,14 +53,18 @@
 <div class="container-fluid foor">
 	<div class="row">
     	<div class="container text-center" style="padding-top:30px;">
-        <a href="#" class="center-block bta"> Button</a>
-        <a href="#" class="center-block bta"> Button</a>
-        <a href="#" class="center-block bta"> Button</a>
+        <a href="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3875.894906974641!2d100.54506831530105!3d13.724811990364918!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30e29f248795f25b%3A0x86804097949877fb!2sThe+Aetas+Lumpini!5e0!3m2!1sth!2sth!4v1507648505916" data-lity class="center-block bta"> LOCATION</a>
+        <a href="images/detail.jpg" class="center-block bta" data-lity data-lity-desc="Photo of a flower"> Ceremony Detail</a>
+        <a href="#inline" data-lity class="center-block bta">  W&amp;W Gallery</a>
         
         </div>
     </div>
 
-		
+	
+</div>
+
+<div id="inline" style="background:#fff;font-family:'Conv_prstartk',Sans-Serif; font-size:2.5em; padding:15px;" class="lity-hide">
+Coming Soon
 </div>
 
 
@@ -69,6 +74,7 @@
     <!--Bootstrap--> 
     <script src="js/bootstrap.min.js"></script>
     <script src="dist/aos.js"></script>
+    <script src="js/lity.js"></script> 
     <script>
       AOS.init({
         easing: 'ease-in-out-sine'

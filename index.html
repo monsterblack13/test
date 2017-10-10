@@ -29,35 +29,63 @@
 	
 	
 </head>
-<body style="background:url(images/clound.png) top center no-repeat,url(images/bg.jpg) top repeat-x fixed;">
+<body>
+<div id="topbar2016"></div>
 
-<div class="container" style="background:url(images/tree.png) top -690px left no-repeat; height:500px; padding-top:60px; text-align:center; margin-bottom:80px;">
-	<div class="col-lg-8 col-lg-offset-2">
-    	<img src="images/save-date.png" class="center-block img-responsive">
-        <p>For the wedding of</p>
-        <img src="images/name.png" class="center-block img-responsive">
-        <p>November 25, 2017</p>
+<div class="container tree-long">
+	<div class="col-lg-8 col-lg-offset-2 text-center">
+    	<img src="images/save-date.png" class="center-block img-responsive" data-aos="fade-down" data-aos-duration="800">
+        <p data-aos="fade-down" data-aos-duration="900">For the wedding of</p>
+        <img src="images/name.png" class="center-block img-responsive" data-aos="fade-down" data-aos-duration="1000">
+        <p data-aos="fade-down" data-aos-duration="1100">November 25, 2017</p>
     </div>
-    <div style="position:absolute; left:30%; top:50%;"><img src="images/block-a.png" width="250"></div>
-    <div style="position:absolute; left:7%; top:28%;"><img src="images/block-b.png" width="350"></div>
-    <div style="position:absolute; right:10%; top:40%;"><img src="images/block-c.png" width="350"></div>    
+    <div class="block-a" data-aos="fade-right" data-aos-duration="800"><div data-aos="fade-right"></div><img src="images/block-a.png" width="300"></div>
+    <div class="block-b" data-aos="fade-right" data-aos-duration="1000"><img src="images/block-b.png"></div>
+    <div class="block-c" data-aos="fade-left" data-aos-duration="800"><img src="images/block-c.png" width="350"></div>    
 </div>
 
 
 <div class="container-fluid">
-	<div class="col-md-3"></div>
-    <div class="col-md-6"><img src="images/cha.png" class="img-responsive center-block"></div>
-    <div class="col-md-3"></div>
+	<div class="col-md-3"><img src="images/tree-a.png" class="pipe-l"></div>
+    <div class="col-md-6">       
+    	<img src="images/cha.png" class="img-responsive center-block">
+        <img src="images/mush.png" class="animation-target" style="    position: absolute;
+    bottom: 60px;
+    left: 210px;">
+    </div>
+    <div class="col-md-3"><img src="images/tree-aa.png" class="pipe-r"></div>
 </div>
 
 
-<div class="container-fluid" style=" background:url(images/ground.jpg) top center repeat-x; height:300px; width:100%;"></div>
+<div class="container-fluid foor">
+	<div class="row">
+    	<div class="container text-center" style="padding-top:30px;">
+        <a href="#" class="center-block bta">Button</a>
+        <a href="#" class="center-block btb">Button</a>
+        <a href="#" class="center-block btc">Button</a>
+        
+        </div>
+    </div>
+
+		
+</div>
+
 
 	
     <!--jQuery--> 
-    <script src="js/jquery-3.1.1.min.js"></script>      
+    <script src="js/jquery-3.1.1.min.js"></script>  
+    <!--<script> 
+    $(function(){
+      $("#topbar2016").load("https://navakarn.github.io/dn-all-tour/gray-button.html"); 
+    });
+</script>-->    
     <!--Bootstrap--> 
     <script src="js/bootstrap.min.js"></script>
     <script src="dist/aos.js"></script>
+    <script>
+      AOS.init({
+        easing: 'ease-in-out-sine'
+      });
+    </script> 
  </body>
 </html>

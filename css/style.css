@@ -73,7 +73,7 @@ a.btc {width:150px; height:50px; background:#40b149; text-align:center; display:
 @media only screen and (max-width: 1780px) {
 	
 	.block-b {left:55px;}
-	.block-c {right: 12px;top: 430px;}
+	.block-c {right: 12px;top: 200px;}
 	.tree-long img {width:80%;}
 
 }
@@ -83,6 +83,7 @@ a.btc {width:150px; height:50px; background:#40b149; text-align:center; display:
 	.block-b {display:none;}
 	.block-c {display:none;}
 	.block-a {display:none;}
+	body {background:url(../images/bg-sm.jpg) top center no-repeat; padding-top:80px; background-size:cover;}
 
 }
 
@@ -90,6 +91,16 @@ a.btc {width:150px; height:50px; background:#40b149; text-align:center; display:
 	
 	.pipe-r {display:none;}
 	.pipe-l {display:none;}
+
+
+}
+
+@media only screen and (max-width: 700px) {
+	
+	p {font-size:1.4em;}
+	a.bta {width:100%;}
+	a.btb {width:100%;}
+	a.btc {width:100%;}
 
 
 }
